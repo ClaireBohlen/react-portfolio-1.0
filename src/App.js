@@ -9,6 +9,11 @@ function App() {
   return (
     <div>
       
+      <Home/>
+      <Projects/>
+      <About/>
+      <Connect/>
+
     </div>
     
   );
