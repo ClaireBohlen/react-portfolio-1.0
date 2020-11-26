@@ -24,7 +24,7 @@ function About (){
                         
                         <div class="col s11 m3 about-col-front">
                             <p> 
-                            <img src={Front} alt="div-tag-image"/>
+                            <img src={Front} alt="div-tag"/>
                             </p>
                             <p>Lorem ipsum dolor sit amet consectetur.</p>
                             
