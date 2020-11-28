@@ -10,9 +10,15 @@ const Navbar = () => {
         <div>
             <Nav> 
                 <NavbarContainer>
-                    <NavLogo> Bear 
-                        
-                    </NavLogo>
+                    <NavLogo to="/"> Bear </NavLogo>
+                    <MobileIcon>
+                        <FaBars/>
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to ="about">About</NavLinks>
+                        </NavItem>
+                    </NavMenu>
                 </NavbarContainer>
             </Nav>
             
