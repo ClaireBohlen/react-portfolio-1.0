@@ -1,8 +1,15 @@
 import React from 'react'
+import  {FaBars} from "react-icons/fa"
 import {
     Nav,
     NavbarContainer,
-    NavLogo
+    NavLogo,
+    MobileIcon,
+    NavMenu,
+    NavItem,
+    NavLinks,
+    NavBtn,
+    NavBtnLink
 } from "./NavbarElements"
 
 const Navbar = () => {
@@ -16,9 +23,21 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to ="about">About</NavLinks>
+                            <NavLinks to ="Home">Home</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to ="About">About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to ="Projects">Projects</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to ="Connect">Connect</NavLinks>
                         </NavItem>
                     </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to = "/resume"> Resume</NavBtnLink>
+                    </NavBtn>
                 </NavbarContainer>
             </Nav>
             
