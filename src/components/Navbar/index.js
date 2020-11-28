@@ -3,9 +3,9 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div>
-            <Nav>
+            <Nav> 
                 <NavbarContainer>
-                    <NavLogo>
+                    <NavLogo> Bear 
                         
                     </NavLogo>
                 </NavbarContainer>
